@@ -7,51 +7,27 @@
         "startDirection": "down",
         "zoom": 100,
         "startSceneId": "f2fa0f5e-c894-4859-9edf-cc182a501b49",
-        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+        "playerSpriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2"
     },
     "_version": "1",
     "name": "EasyRPG Test Game",
     "variables": [],
     "backgrounds": [
         {
-            "id": "06c69fc0-3d27-4037-b667-e3f4f10540b4",
-            "name": "easyRPG_Logo_0",
-            "width": 20,
-            "height": 18,
-            "filename": "easyRPG_Logo_0.png",
-            "_v": 1555730543299
-        },
-        {
-            "id": "f3f0f270-f5bf-4f6e-8206-fad218b0351f",
-            "name": "easyRPG_Logo_1",
-            "width": 20,
-            "height": 18,
-            "filename": "easyRPG_Logo_1.png",
-            "_v": 1555730543299
-        },
-        {
-            "id": "9ec04ad1-3b2c-4d55-8e33-521b319f2592",
-            "name": "easyRPG_Logo_2",
-            "width": 20,
-            "height": 18,
-            "filename": "easyRPG_Logo_2.png",
-            "_v": 1555730543299
-        },
-        {
             "id": "e1729c56-a461-4134-bbb2-41dd7f1782b2",
             "name": "easyRPG_Logo_3",
             "width": 20,
             "height": 18,
             "filename": "easyRPG_Logo_3.png",
-            "_v": 1555730543299
+            "_v": 1555775573043
         },
         {
-            "id": "dfb09c70-5377-45c0-822c-20e61dbd8262",
-            "name": "logo",
-            "width": 20,
-            "height": 18,
-            "filename": "logo.png",
-            "_v": 1555730543300
+            "id": "013c584c-4f49-4770-b829-7bfed150dde2",
+            "name": "outside",
+            "width": 32,
+            "height": 32,
+            "filename": "outside.png",
+            "_v": 1555775573043
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -59,7 +35,15 @@
             "width": 20,
             "height": 18,
             "filename": "placeholder.png",
-            "_v": 1555730543300
+            "_v": 1555775573043
+        },
+        {
+            "id": "d69464a5-5d74-4a5a-9ac8-212860ace7c6",
+            "name": "room_1",
+            "width": 20,
+            "height": 18,
+            "filename": "room_1.png",
+            "_v": 1555775573043
         },
         {
             "id": "420d8f1e-0517-4596-a52b-1bc26e3bb8b7",
@@ -67,33 +51,33 @@
             "width": 20,
             "height": 18,
             "filename": "title_screen.png",
-            "_v": 1555730543300
-        },
-        {
-            "id": "4e679a1c-1340-40a3-ae1a-52802c4f0774",
-            "name": "Title2",
-            "width": 20,
-            "height": 18,
-            "filename": "Title2.png",
-            "_v": 1555730543300
+            "_v": 1555775573043
         }
     ],
     "spriteSheets": [
+        {
+            "id": "7b08f5c7-d5e0-404e-96d0-43658d4312d8",
+            "name": "actor_",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "actor_.png",
+            "_v": 1555775573053
+        },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
             "name": "actor_animated",
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "_v": 1555730543302
+            "_v": 1555775573053
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
             "name": "actor",
-            "numFrames": 3,
-            "type": "actor",
+            "numFrames": 6,
+            "type": "actor_animated",
             "filename": "actor.png",
-            "_v": 1555730543302
+            "_v": 1555775573053
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -101,7 +85,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "_v": 1555730543302
+            "_v": 1555775573053
         }
     ],
     "scenes": [
@@ -272,22 +256,115 @@
                     "id": "b849f828-b856-4fbe-b7bc-4d6e66c52dcf",
                     "command": "EVENT_WAIT",
                     "args": {
-                        "time": 2
+                        "time": 0.5
                     }
                 },
                 {
                     "id": "814dfa5c-7e97-4aad-9740-1fe862c8be4b",
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
-                        "sceneId": "2fc57110-0f41-4379-9a06-6e6738c44d2c",
-                        "x": 0,
-                        "y": 0,
+                        "sceneId": "8c03e4d5-52b8-4ed9-b2fc-2abcfc2b1adb",
+                        "x": 12,
+                        "y": 11,
                         "direction": "",
                         "fadeSpeed": "1"
                     }
                 },
                 {
                     "id": "21a163a0-caa4-4967-9667-4b5aea39cbed",
+                    "command": "EVENT_END"
+                }
+            ]
+        },
+        {
+            "id": "8c03e4d5-52b8-4ed9-b2fc-2abcfc2b1adb",
+            "name": "Scene 3",
+            "backgroundId": "d69464a5-5d74-4a5a-9ac8-212860ace7c6",
+            "x": 499,
+            "y": 348,
+            "width": 32,
+            "height": 32,
+            "actors": [],
+            "triggers": [
+                {
+                    "id": "390ecfc2-9f6e-4f2d-b85f-94451dcde7fe",
+                    "x": 8,
+                    "y": 6,
+                    "width": 4,
+                    "height": 1,
+                    "trigger": "walk",
+                    "script": [
+                        {
+                            "id": "658f4a77-a660-4c68-85d6-3284601487d3",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": "OMG! A castle! :)"
+                            }
+                        },
+                        {
+                            "id": "0a2c63ba-b02e-4cdf-b008-bda7aff8bbdb",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
+            "collisions": [
+                0,
+                0,
+                224,
+                255,
+                255,
+                2,
+                15,
+                32,
+                240,
+                0,
+                2,
+                15,
+                32,
+                240,
+                0,
+                2,
+                0,
+                96,
+                0,
+                0,
+                15,
+                0,
+                240,
+                0,
+                0,
+                15,
+                0,
+                112,
+                0,
+                0,
+                15,
+                0,
+                240,
+                0,
+                0,
+                255,
+                0,
+                224,
+                31,
+                0,
+                254,
+                1,
+                224,
+                15,
+                0
+            ],
+            "script": [
+                {
+                    "id": "acae2a6f-0fc8-4cd9-9571-9cfef6ff0a55",
+                    "command": "EVENT_ACTOR_SHOW",
+                    "args": {
+                        "actorId": "player"
+                    }
+                },
+                {
+                    "id": "97779764-601a-44d7-b9b9-c7a8dfb8282b",
                     "command": "EVENT_END"
                 }
             ]
@@ -298,7 +375,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1555730543305
+            "_v": 1555775573054
         }
     ]
 }
