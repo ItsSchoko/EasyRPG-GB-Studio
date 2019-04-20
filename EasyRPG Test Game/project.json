@@ -1,0 +1,304 @@
+{
+    "settings": {
+        "showCollisions": true,
+        "showConnections": true,
+        "startX": 0,
+        "startY": 3,
+        "startDirection": "down",
+        "zoom": 100,
+        "startSceneId": "f2fa0f5e-c894-4859-9edf-cc182a501b49",
+        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+    },
+    "_version": "1",
+    "name": "EasyRPG Test Game",
+    "variables": [],
+    "backgrounds": [
+        {
+            "id": "06c69fc0-3d27-4037-b667-e3f4f10540b4",
+            "name": "easyRPG_Logo_0",
+            "width": 20,
+            "height": 18,
+            "filename": "easyRPG_Logo_0.png",
+            "_v": 1555730543299
+        },
+        {
+            "id": "f3f0f270-f5bf-4f6e-8206-fad218b0351f",
+            "name": "easyRPG_Logo_1",
+            "width": 20,
+            "height": 18,
+            "filename": "easyRPG_Logo_1.png",
+            "_v": 1555730543299
+        },
+        {
+            "id": "9ec04ad1-3b2c-4d55-8e33-521b319f2592",
+            "name": "easyRPG_Logo_2",
+            "width": 20,
+            "height": 18,
+            "filename": "easyRPG_Logo_2.png",
+            "_v": 1555730543299
+        },
+        {
+            "id": "e1729c56-a461-4134-bbb2-41dd7f1782b2",
+            "name": "easyRPG_Logo_3",
+            "width": 20,
+            "height": 18,
+            "filename": "easyRPG_Logo_3.png",
+            "_v": 1555730543299
+        },
+        {
+            "id": "dfb09c70-5377-45c0-822c-20e61dbd8262",
+            "name": "logo",
+            "width": 20,
+            "height": 18,
+            "filename": "logo.png",
+            "_v": 1555730543300
+        },
+        {
+            "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "name": "placeholder",
+            "width": 20,
+            "height": 18,
+            "filename": "placeholder.png",
+            "_v": 1555730543300
+        },
+        {
+            "id": "420d8f1e-0517-4596-a52b-1bc26e3bb8b7",
+            "name": "title_screen",
+            "width": 20,
+            "height": 18,
+            "filename": "title_screen.png",
+            "_v": 1555730543300
+        },
+        {
+            "id": "4e679a1c-1340-40a3-ae1a-52802c4f0774",
+            "name": "Title2",
+            "width": 20,
+            "height": 18,
+            "filename": "Title2.png",
+            "_v": 1555730543300
+        }
+    ],
+    "spriteSheets": [
+        {
+            "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+            "name": "actor_animated",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "actor_animated.png",
+            "_v": 1555730543302
+        },
+        {
+            "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+            "name": "actor",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "actor.png",
+            "_v": 1555730543302
+        },
+        {
+            "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+            "name": "static",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "static.png",
+            "_v": 1555730543302
+        }
+    ],
+    "scenes": [
+        {
+            "id": "2fc57110-0f41-4379-9a06-6e6738c44d2c",
+            "name": "Scene 1",
+            "backgroundId": "e1729c56-a461-4134-bbb2-41dd7f1782b2",
+            "x": 257,
+            "y": 89,
+            "width": 32,
+            "height": 32,
+            "actors": [],
+            "triggers": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "script": [
+                {
+                    "id": "61ae0c99-5667-4f53-ab77-0dde203daae2",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "player"
+                    }
+                },
+                {
+                    "id": "7e252ba4-a170-429e-80a9-f68a04e4ffa6",
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2
+                    }
+                },
+                {
+                    "id": "fec28f1b-4706-4640-a509-4e805be3f82f",
+                    "command": "EVENT_OVERLAY_SHOW",
+                    "args": {
+                        "color": "white",
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                {
+                    "id": "badddb7f-e5c2-42a8-83d4-d772f6894ec8",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "fd47c1b6-864c-42f8-a144-382cde781186",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "right",
+                        "fadeSpeed": "1"
+                    }
+                },
+                {
+                    "id": "4759d1e9-fafe-42d5-b5ca-b541f430e898",
+                    "command": "EVENT_END"
+                }
+            ]
+        },
+        {
+            "id": "fd47c1b6-864c-42f8-a144-382cde781186",
+            "name": "Scene 2",
+            "backgroundId": "420d8f1e-0517-4596-a52b-1bc26e3bb8b7",
+            "x": 597,
+            "y": 85,
+            "width": 32,
+            "height": 32,
+            "actors": [],
+            "triggers": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "script": [
+                {
+                    "id": "3eb76733-766f-45da-b1be-a049909b625f",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "player"
+                    }
+                },
+                {
+                    "id": "b849f828-b856-4fbe-b7bc-4d6e66c52dcf",
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2
+                    }
+                },
+                {
+                    "id": "814dfa5c-7e97-4aad-9740-1fe862c8be4b",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "2fc57110-0f41-4379-9a06-6e6738c44d2c",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "1"
+                    }
+                },
+                {
+                    "id": "21a163a0-caa4-4967-9667-4b5aea39cbed",
+                    "command": "EVENT_END"
+                }
+            ]
+        }
+    ],
+    "music": [
+        {
+            "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+            "name": "template",
+            "filename": "template.mod",
+            "_v": 1555730543305
+        }
+    ]
+}
