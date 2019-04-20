@@ -14,12 +14,12 @@
     "variables": [],
     "backgrounds": [
         {
-            "id": "e1729c56-a461-4134-bbb2-41dd7f1782b2",
-            "name": "easyRPG_Logo_3",
+            "id": "369e4fb2-5dd4-4b99-848c-d5f24b59a583",
+            "name": "easyRPG_Logo",
             "width": 20,
             "height": 18,
-            "filename": "easyRPG_Logo_3.png",
-            "_v": 1555776912598
+            "filename": "easyRPG_Logo.png",
+            "_v": 1555783576180
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -27,7 +27,7 @@
             "width": 20,
             "height": 18,
             "filename": "placeholder.png",
-            "_v": 1555776912599
+            "_v": 1555783576181
         },
         {
             "id": "d69464a5-5d74-4a5a-9ac8-212860ace7c6",
@@ -35,7 +35,7 @@
             "width": 20,
             "height": 18,
             "filename": "room_1.png",
-            "_v": 1555776912599
+            "_v": 1555783576181
         },
         {
             "id": "420d8f1e-0517-4596-a52b-1bc26e3bb8b7",
@@ -43,7 +43,7 @@
             "width": 20,
             "height": 18,
             "filename": "title_screen.png",
-            "_v": 1555776912599
+            "_v": 1555783576181
         }
     ],
     "spriteSheets": [
@@ -53,7 +53,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor_.png",
-            "_v": 1555776912616
+            "_v": 1555783576183
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -61,7 +61,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "_v": 1555776912616
+            "_v": 1555783576183
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -69,7 +69,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor.png",
-            "_v": 1555776912616
+            "_v": 1555783576183
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -77,14 +77,14 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "_v": 1555776912616
+            "_v": 1555783576183
         }
     ],
     "scenes": [
         {
             "id": "2fc57110-0f41-4379-9a06-6e6738c44d2c",
             "name": "Scene 1",
-            "backgroundId": "e1729c56-a461-4134-bbb2-41dd7f1782b2",
+            "backgroundId": "369e4fb2-5dd4-4b99-848c-d5f24b59a583",
             "x": 257,
             "y": 89,
             "width": 32,
@@ -367,7 +367,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1555776912618
+            "_v": 1555783576185
         }
     ]
 }
