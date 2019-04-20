@@ -19,15 +19,7 @@
             "width": 20,
             "height": 18,
             "filename": "easyRPG_Logo_3.png",
-            "_v": 1555775573043
-        },
-        {
-            "id": "013c584c-4f49-4770-b829-7bfed150dde2",
-            "name": "outside",
-            "width": 32,
-            "height": 32,
-            "filename": "outside.png",
-            "_v": 1555775573043
+            "_v": 1555776912598
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -35,7 +27,7 @@
             "width": 20,
             "height": 18,
             "filename": "placeholder.png",
-            "_v": 1555775573043
+            "_v": 1555776912599
         },
         {
             "id": "d69464a5-5d74-4a5a-9ac8-212860ace7c6",
@@ -43,7 +35,7 @@
             "width": 20,
             "height": 18,
             "filename": "room_1.png",
-            "_v": 1555775573043
+            "_v": 1555776912599
         },
         {
             "id": "420d8f1e-0517-4596-a52b-1bc26e3bb8b7",
@@ -51,7 +43,7 @@
             "width": 20,
             "height": 18,
             "filename": "title_screen.png",
-            "_v": 1555775573043
+            "_v": 1555776912599
         }
     ],
     "spriteSheets": [
@@ -61,7 +53,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor_.png",
-            "_v": 1555775573053
+            "_v": 1555776912616
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -69,7 +61,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "_v": 1555775573053
+            "_v": 1555776912616
         },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
@@ -77,7 +69,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor.png",
-            "_v": 1555775573053
+            "_v": 1555776912616
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -85,7 +77,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "_v": 1555775573053
+            "_v": 1555776912616
         }
     ],
     "scenes": [
@@ -256,7 +248,7 @@
                     "id": "b849f828-b856-4fbe-b7bc-4d6e66c52dcf",
                     "command": "EVENT_WAIT",
                     "args": {
-                        "time": 0.5
+                        "time": 1
                     }
                 },
                 {
@@ -375,7 +367,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1555775573054
+            "_v": 1555776912618
         }
     ]
 }
